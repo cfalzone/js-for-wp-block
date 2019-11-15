@@ -1,0 +1,27 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-shoutout-block {
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+  display: -ms-flexbox;
+  display: flex; }
+  .wp-block-cgb-block-shoutout-block img {
+    max-width: 200px;
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    -o-object-fit: scale-down;
+       object-fit: scale-down; }
+  .wp-block-cgb-block-shoutout-block .shoutout-content {
+    margin-left: 1rem; }
